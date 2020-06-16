@@ -2,10 +2,11 @@
     "name": "mysticzap/innln",
     "authors": [
         {
-            "name": "Anping Zhong",
+            "name": "mysticzap",
             "email": "mysticzap@qq.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.0",
@@ -19,5 +20,13 @@
             "Innln\\": "src/"
         }
     },
-    "license": "MIT"
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "4.x-dev"
+    }
 }
