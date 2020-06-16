@@ -145,7 +145,7 @@ class Container extends Component
      * @param array $config a list of name-value pairs that will be used to initialize the object properties.
      * @return object an instance of the requested class.
      * @throws InvalidConfigException if the class cannot be recognized or correspond to an invalid definition
-     * @throws NotInstantiableException If resolved to an abstract class or an interface (since 2.0.9)
+     * @throws NotInstantiableException If resolved to an abstract class or an interface (since 1.0.0)
      */
     public function get($class, $params = [], $config = [])
     {

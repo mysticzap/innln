@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mysticzap <mysticzap@qq.com>
- * Date: 2018/9/10
- * Time: 23:26
- */
-
 namespace innln\helpers;
 
 use innln\Arrayable;
@@ -257,7 +250,7 @@ class ArrayHelper
      * you can also describe the path as an array of keys
      * if the path is null then `$array` will be assigned the `$value`
      * @param mixed $value the value to be written
-     * @since 2.0.13
+     * @since 1.0.0
      */
     public static function setValue(&$array, $path, $value)
     {
@@ -329,7 +322,7 @@ class ArrayHelper
      * @param array $array the array where to look the value from
      * @param string $value the value to remove from the array
      * @return array the items that were removed from the array
-     * @since 2.0.11
+     * @since 1.0.0
      */
     public static function removeValue(&$array, $value)
     {
@@ -807,7 +800,7 @@ class ArrayHelper
      * @return bool `true` if `$needle` was found in `$haystack`, `false` otherwise.
      * @throws InvalidArgumentException if `$haystack` is neither traversable nor an array.
      * @see http://php.net/manual/en/function.in-array.php
-     * @since 2.0.7
+     * @since 1.0.0
      */
     public static function isIn($needle, $haystack, $strict = false)
     {
@@ -834,7 +827,7 @@ class ArrayHelper
      * @param mixed $var The variable being evaluated.
      * @return bool whether $var is array-like
      * @see http://php.net/manual/en/function.is-array.php
-     * @since 2.0.8
+     * @since 1.0.0
      */
     public static function isTraversable($var)
     {
@@ -851,7 +844,7 @@ class ArrayHelper
      * @param bool $strict Whether to enable strict (`===`) comparison.
      * @throws InvalidArgumentException if `$haystack` or `$needles` is neither traversable nor an array.
      * @return bool `true` if `$needles` is a subset of `$haystack`, `false` otherwise.
-     * @since 2.0.7
+     * @since 1.0.0
      */
     public static function isSubset($needles, $haystack, $strict = false)
     {
@@ -910,7 +903,7 @@ class ArrayHelper
      * - `var.key` = only `$array['var']['key'] will be left in result.
      * - `!var.key` = `$array['var']['key'] will be removed from result.
      * @return array Filtered array
-     * @since 2.0.9
+     * @since 1.0.0
      */
     public static function filter($array, $filters)
     {
