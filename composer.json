@@ -1,0 +1,23 @@
+{
+    "name": "mysticzap/innln",
+    "authors": [
+        {
+            "name": "Anping Zhong",
+            "email": "mysticzap@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-mbstring": "*",
+        "ext-ctype": "*",
+        "lib-pcre": "*",
+        "ezyang/htmlpurifier": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Innln\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
