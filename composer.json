@@ -13,11 +13,12 @@
         "ext-mbstring": "*",
         "ext-ctype": "*",
         "lib-pcre": "*",
+        "yiisoft/yii2": "~2.0.0",
         "ezyang/htmlpurifier": "~4.6"
     },
     "autoload": {
         "psr-4": {
-            "Innln\\": "src/"
+            "innln\\": "src/"
         }
     },
     "repositories": {
